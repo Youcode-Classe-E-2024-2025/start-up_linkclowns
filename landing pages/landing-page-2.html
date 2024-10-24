@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="landing_page_1.css">
+    <title>landing_page1</title>
+</head>
+<body>
+    
+    <section class="section1">
+
+        <div class="book-cover">
+            <img src="img/Capture32.png" alt="book-cover">
+        </div>
+
+        <div class="book-info">
+            <h1>SEASONS TOME 1 - <span>Grand Format</span></h1>
+            <h2>The Devil's Sons</h2>
+            <p class="author">Chloé Wallerand </p>
+
+            <div class="rating">
+                <span class="note">Note moyenne</span>
+                <span class="stars">★★★★★</span>
+                <span>3 notes. <a href="#avis">Donner un avis</a></span>
+            </div>
+
+            <div class="price">
+                <span class="current-price">$22.40</span>
+                <span class="old-price">$30.40</span>
+            </div>
+
+            <p class="description">
+                Avocate en devenir Camélia est passionnée de crimes non résolus ; ça tombe bien Rory Cavendish son ancien
+                bourreau vient de mourir mystérieusement... <a href="#resume">Lire la suite</a>
+            </p>
+
+            <button class="order-button">Commander</button>
+
+            <div class="delivery">
+                LIVRAISON À DOMICILE À 0,01€ DÈS 35€ D'ACHAT
+            </div>
+        </div>
+    </section>
+
+    <div class="ligne"></div>
+
+    <section id="resume" class="resume-container">
+        <h2>Résumé</h2>
+        <p>
+            Avocate en devenir Camélia est passionnée de crimes non résolus. Ça tombe bien Rory Cavendish son ancien bourreau vient de mourir mystérieusement. Le présumé coupable du meurtre c'est lui Lou McAllister, le meilleur ami de Rory, le garçon qui l'a humiliée il y a dix ans et qu'elle n'a jamais oublié depuis. Camélia saisit cette chance pour résoudre sa première enquête et satisfaire sa soif de vengeance. Lou a toujours été le mouton noir de sa famille mais il ne s'attendait pas à finir en prison pour meurtre. Du jour au lendemain le voilà abandonné par tous ceux en qui il avait confiance. La seule personne à pouvoir le sortir de là, c'est elle, Camélia O'Brien, la première victime de Rory. La fille qu'il a blessée plus jeune et qui hante ses pensées depuis. Lou est prêt à tout pour se faire pardonner ses péchés et repartir de zéro.
+        </p>
+    </section>
+
+    <div class="ligne"></div>
+
+    <section class="reviews-section">
+        <h1>Avis audio</h1>
+        <div class="review-card">
+            <div class="profile">
+                <div class="profile-icon"></div>
+                <div class="profile-name">mr. allen kerry</div>
+                <div class="stars">★★★★★</div>
+            </div>
+            <p>Dans un monde où les étoiles chuchotent des secrets, les rêves dansent sous la lumière de la lune. Chaque souffle du vent raconte une histoire oubliée, prête à être redécouverte.</p>
+        </div>
+        <div class="review-card">
+            <div class="profile">
+                <div class="profile-icon"></div>
+                <div class="profile-name">mr. allen kerry</div>
+                <div class="stars">★★★★★</div>
+            </div>
+            <p>Dans le jardin des songes, les fleurs brillent d'une lueur dorée, chaque pétale une promesse de bonheur. Les ombres dansent au rythme du vent, évoquant des souvenirs enfouis. Un hibou, sage gardien de la nuit, observe le monde endormi. Au loin, une mélodie douce flotte, tissant des liens entre le rêve et la réalité.</p>
+        </div>
+        <div class="review-card">
+            <div class="profile">
+                <div class="profile-icon"></div>
+                <div class="profile-name">mr. allen kerry</div>
+                <div class="stars">★★★★☆</div>
+            </div>
+            <p>Dans le jardin des songes, les fleurs brillent d'une lueur dorée, chaque pétale une promesse de bonheur. Les ombres dansent au rythme du vent, évoquant des souvenirs enfouis. Un hibou, sage gardien de la nuit, observe le monde endormi. Au loin, une mélodie douce flotte, tissant des liens entre le rêve et la réalité.</p>
+        </div>
+    </section>
+
+    <section id = "avis" class="comment-section">
+        <h2 class="commantaire">Ajouter un Commentaire</h2>
+        <form class="comment-form">
+            <div class="form-group">
+                <label for="name">Nom:</label>
+                <input type="text"  name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="rating">Note:</label>
+                <div class="star-rating">
+                    <input type="radio"  name="rating" ><label >★</label>
+                    <input type="radio"  name="rating" ><label >★</label>
+                    <input type="radio"  name="rating" ><label >★</label>
+                    <input type="radio"  name="rating" ><label >★</label>
+                    <input type="radio"  name="rating" ><label >★</label>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="comment">Commentaire:</label>
+                <textarea id="comment" name="comment" rows="4" required></textarea>
+            </div>
+            <button type="submit">Soumettre</button>
+        </form>
+    </section>
+
+    
+</body>
+</html>
