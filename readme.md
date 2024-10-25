@@ -33,7 +33,9 @@ Notre projet utilise les technologies suivantes :
    git clone https://github.com/Youcode-Classe-E-2024-2025/startup_linkclowns.git
 
 lien de backlog dans figma 
+    ```bash
 https://www.figma.com/design/phcfiWe8MYwisXVz7AXbvr/Untitled?node-id=0-1&t=feRleZzGSgzDTIdj-1
 
 lien de maquet dans figma 
+    ```bash
 https://www.figma.com/design/8J3czzVDlXTT5kF6kDGIIO/Untitled?node-id=0-1&t=PPoT6WSLj337f4d2-1
