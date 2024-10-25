@@ -306,7 +306,8 @@ button:hover {
 
 .star-rating label {
     color: #ccc;
-    font-size: 32px;
+    font-size: 2em;
+    padding: 0 10px;
     cursor: pointer;
 }
 
@@ -316,4 +317,5 @@ button:hover {
 
 .star-rating label:hover, .star-rating label:hover ~ label {
     color: #f5b301;
+
 }
